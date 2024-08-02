@@ -8,7 +8,9 @@
   font-family:'poppins';
 }
 :root{
-  --main-color:#ff3131;
+  
+  /* --main-color:#ff3131; */
+  --main-color:rgba(0, 247, 255, 0.644);
   --text-color:#fff;
   --text-color-2:#ffffffe1;
 }

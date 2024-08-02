@@ -8,12 +8,13 @@
     z-index: 999;
 }
 :root{
-    --main-color:#ff3131;
+    --main-color:rgba(0, 183, 255, 0.774);
+    /* --main-color:#ff3131; */
     --text-color:#fff;
     --text-color-2:#ffffffe1;
 }
 .navbar-brand{
-    font-size: 25px;
+    font-size: 50px;
 }
 .navbar-brand{
     color:var(--text-color);
@@ -34,18 +35,19 @@
 }
 .nav-item a{
     color:var(--text-color);
+
     font-size:18px;
     text-decoration: none;
     padding:5px 12px;
-    background-color:rgba(255, 49, 49, 0.08);
+    background-color:rgba(49, 114, 255, 0.096);
     border-radius: 5px;
     transition:.6s;
-    border:0.2px solid rgba(255, 49, 49, 0.2);
+    border:0.2px solid rgba(49, 173, 255, 0.2);
     margin:10px;
 }
 .nav-item a:hover{
     box-shadow: 0 5px 16px var(--main-color);
-    background-color: rgba(255, 49, 49, 1);
+    background-color: rgba(0, 183, 255, 0.774);
     color:#fff;
     transform: translateY(-5px);
 }
