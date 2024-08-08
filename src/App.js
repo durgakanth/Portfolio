@@ -5,21 +5,21 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Services from './components/Services';
 import Project from './components/Project';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
-import Contact from './components/Contact';
 
 function App() {
   return (
     <>
-    <Nav />
-    <Header />
-    <About />
-    <Skills />
-    <Services />
-    <Project />
-    <Contact />
-    <Footer />
+      <Nav />
+      <Header />
+      <About />
+      <Skills />
+      <Services />
+      <Project />
+      <Contact />
+      <Footer />
     </>
   );
 }
