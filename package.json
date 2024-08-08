@@ -42,5 +42,9 @@
   },
   "engines": {
     "node": "16.x"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.0",
+    "react-scripts": "^5.0.0"
   }
 }
